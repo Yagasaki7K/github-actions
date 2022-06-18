@@ -1,0 +1,15 @@
+{
+    "name": "github-actions",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Yagasaki7K/github-actions.git",
+    "author": "Anderson Marlon <anderson18.marlon@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+    },
+    "devDependencies": {
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.7.4"
+    }
+}
